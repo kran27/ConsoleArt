@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AltUI">
+      <HintPath>..\..\..\..\OneDrive\Documents\GitHub\VanBurenTools\VBLauncher\bin\Release\net6.0-windows\AltUI.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageTools">
+      <HintPath>..\..\..\..\OneDrive\Documents\GitHub\ImageTools\obj\Release\net6.0\ImageTools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
